@@ -2105,6 +2105,7 @@ input, select, textarea {
 		.image img {
 			border-radius: 3px;
 			display: block;
+			overflow: hidden;
 		}
 
 		.image.left {
@@ -2135,11 +2136,25 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
+				overflow: hidden;
 			}
 
+			.image.fit > img {
+			width: 100%;
+}
+
 			.image.fit > a {
-				width: 100%;
+			width: 100%;
+					
 			}
+			
+			span > .image.fit.yoga {
+				height: 239px;
+				width: 359px;
+				object-fit: contain;
+			}
+			
+			
 /* List */
 
 	ol {
