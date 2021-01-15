@@ -291,7 +291,7 @@ input, select, textarea {
 /* Row */
 
 	.row {
-		display: flex;
+		display: inline-flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
@@ -2010,6 +2010,7 @@ input, select, textarea {
 			border: 0;
 			border-radius: 0;
 			padding: 0;
+			text-decoration: none;
 		}
 
 /* Icon */
@@ -2128,31 +2129,27 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		.image.fit {
-			display: block;
+		.image.fit a{
+			display: inline-flex;
 			margin: 0 0 2em 0;
 			width: 100%;
+			text-decoration: none;
+			underline: none;
 		}
 
 			.image.fit img {
-				width: 100%;
-				overflow: hidden;
+				display: block;
+				width: 256px;
+				height: 171px;
+				clear: both;
+				float: left;
 			}
 
-			.image.fit > img {
-			width: 100%;
+			
 }
 
-			.image.fit > a {
-			width: 100%;
-					
-			}
+		
 			
-			span > .image.fit.yoga {
-				height: 239px;
-				width: 359px;
-				object-fit: contain;
-			}
 			
 			
 /* List */
