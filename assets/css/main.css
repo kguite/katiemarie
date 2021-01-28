@@ -27,7 +27,8 @@ section, summary, time, mark, audio, video {
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;}
+	display: block;
+}
 
 body {
 	line-height: 1;
@@ -179,7 +180,7 @@ input, select, textarea {
 		font-size: 1.35em;
 		line-height: 1.75em;
 	}
-	
+
 	h2 > a {
 		font-size: .5em;
 	}
@@ -1696,14 +1697,14 @@ input, select, textarea {
 
 					.row.gtr-50.gtr-uniform {
 						margin-top: -0.75em;
-			
+
 					}
 
 						.row.gtr-50.gtr-uniform > * {
 							padding-top: 0.75em;
-						
-						
-							
+
+
+
 						}
 
 
@@ -1760,7 +1761,7 @@ input, select, textarea {
 							padding-top: 3em;
 						}
 				.col-4.image.fit > *{
-					
+
 				}
 		}
 
@@ -2020,7 +2021,7 @@ input, select, textarea {
 			padding: 0;
 			text-decoration: none;
 		}
-		
+
 		div.box.alt.img {
 			text-decoration: none;
 		}
@@ -2157,13 +2158,13 @@ input, select, textarea {
 				float: left;
 			}
 
-			
+
 }
 
-		
-			
-			
-			
+
+
+
+
 /* List */
 
 	ol {
@@ -3919,6 +3920,7 @@ input, select, textarea {
 		padding: 6em 0 4em 0 ;
 		background-color: #1d242a;
 		text-align: center;
+		width: 100%;
 	}
 
 		#footer .icons {
@@ -4028,7 +4030,5 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
-	
+
 	/* About Image */
-	
-	
